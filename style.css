@@ -1,17 +1,23 @@
 body{
     background-color: aquamarine;
 }
-
-.open-popup{
-    display: block;
+.wrapper{
+    text-align: center;
+    align-items: center;
+    align-content: center;
     background-color: #ff9933;
-    
     width: 200px;
     height: 200px;
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top:50%;
+    left:50%;
+    
+}
+.open-popup{
+    background-color: #ff9933;
+    color: black;
     border: 5px;
+    text-decoration: none;
     border-color: black;
 }
 .popup__bg {
@@ -37,7 +43,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0); 
-    background: #ff9933;
+    background:bisque;
     width: 500px;
     padding: 25px;
     transition: 0.5s all;
@@ -115,8 +121,8 @@ body{
     justify-content: center;
     color: #000000;
     font-size: 18px;
-    border: 2px solid #FFCC33;
-    background: #FFCC33;
+    border: 2px solid rgb(230, 90, 211);
+    background: rgb(230, 90, 211);
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s all;
