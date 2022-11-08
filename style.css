@@ -5,12 +5,13 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: #ff9933;
     width: 200px;
     height: 200px;
     position: fixed;
-    top:50%;
-    left:50%;
+    top:40%;
+    left:40%;
     
 }
 .open-popup{
@@ -61,6 +62,7 @@ body{
     cursor: pointer;
     height: 30px;
     width: 30px;
+    background-color: bisque;
 }
 
 .popup label {
