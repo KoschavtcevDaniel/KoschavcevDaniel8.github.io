@@ -1,6 +1,9 @@
 body{
     background-color: aquamarine;
 }
+.img{
+    background-color: bisque; 
+}
 .wrapper{
     text-align: center;
     align-items: center;
@@ -43,7 +46,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0); 
-    background:bisque;
+    background-color: bisque;
     width: 500px;
     padding: 25px;
     transition: 0.5s all;
@@ -174,3 +177,4 @@ body{
     background: rgb(0, 255, 64);
     border: 2px solid rgb(123, 255, 174);
 }
+
